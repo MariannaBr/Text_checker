@@ -1,0 +1,43 @@
+<!-- HTML expanding (Emmet):
+  - type html:5 and press Tab;
+  - type div>h1#header and press Tab;
+-->
+<h1 id="header"></h1>
+
+<html>
+  <head>
+    <title>Check text difficulty</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+    <h2 id="Title" class='title'>Text checker</h2>
+    <div id="field" class="container">
+      <div id="field1" class="container1">
+        <div id='examples' class="examples">
+          <div id='example1' class="example" style="background: rgb(243, 120, 109)">Declaration of Independence. Score: 17</div>
+          <div id='example2' class="example" style="background: rgb(243, 204, 140)">Martin Luther King, Jr, I Have a Dream speech. Score: 8</div>
+          <div id='example3' class="example" style="background: rgb(253, 235, 208)">Charlie Chaplin, The Dictator speech. Score: 5</div>
+          <div id='example3' class="example" style="background: rgb(134, 238, 175)">Steve Jobs iPhone 2007 launch. Score: 3</div>
+        </div>
+        <div id='scale' class="scale">
+          <div id='item1' class="item">
+            <span class="span">Score</span>
+          </div>
+        </div>
+        <div id='explanations' class="explanations">
+          <div id='explanation1' class="explanation" style="background: rgb(243, 120, 109)">Score: 13 and more for expertises...</div>
+          <div id='explanation2' class="explanation" style="background: rgb(243, 204, 140)">Score: 8 - 12 for blog post, essey...</div>
+          <div id='explanation2' class="explanation" style="background: rgb(253, 235, 208)">Score: 5 - 7 for website landing page, email...</div>
+          <div id='explanation3' class="explanation" style="background: rgb(134, 238, 175)">Score: 1 - 5 for ads, twitter post...
+          </div>
+        </div>
+      </div>
+      <div id="field2" class="container2">
+        <textarea id="placetext" class="textfield" placeholder='Paste the text here'></textarea>
+        <button id="check" class="buttonCheck">Check</button>
+        <a class="legend" href='https://en.wikipedia.org/wiki/Automated_readability_index' target="_blank">Score calculated based on ARI</a>
+      </div>
+    </div>
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
+</html>
